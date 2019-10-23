@@ -1,10 +1,16 @@
 package com.tophersikorra;
 
 public class MathEquation {
-    public double operand1;
-    public double operand2;
-    public char operator;
-    public double result;
+    private double operand1;
+    private double operand2;
+    private char operator;
+    private double result;
+
+    public MathEquation(double operand1, double operand2, char operator) {
+        this.operand1 = operand1;
+        this.operand2 = operand2;
+        this.operator = operator;
+    }
 
     public void execute() {
         switch(operator) {
@@ -27,5 +33,9 @@ public class MathEquation {
                 System.out.println("Error - invalid operator");
                 break;
         }
+    }
+
+    public double getResult() {
+        return result;
     }
 }
