@@ -43,7 +43,7 @@ public class MathEquation {
                 break;
             default:
                 result = 0.0;
-                System.out.println("Error - invalid operator");
+                System.out.println("Error - invalid operators");
                 break;
         }
     }

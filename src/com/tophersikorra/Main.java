@@ -3,10 +3,28 @@ package com.tophersikorra;
 public class Main {
 
     public static void main(String[] args) {
-        MathEquation testEquation = new MathEquation();
-        testEquation.execute();
-        System.out.println(testEquation.getResult());
+//        useMathEquation();
+//        useCalculatorBase();
 
+        String[] statements = {
+            "divide 100.0 50.0",
+            "add 25.0 92.0",
+            "subtract 225.0 17.0",
+            "multiply 11.0 3.0"
+        };
+
+        CalculateHelper helper = new CalculateHelper();
+
+        for (String statement : statements) {
+            helper.process(statement);
+            System.out.println(helper);
+        }
+
+
+    }
+
+    
+    static void useMathEqution() {
         MathEquation[] equations = new MathEquation[4];
 
         equations[0] = new MathEquation(100.0, 0.0, 'd');
@@ -41,16 +59,18 @@ public class Main {
         equationOverload.execute((double) leftInt, (double) rightInt);
         System.out.print("result = ");
         System.out.println(equationOverload.getResult());
+    }
 
+    static void useCalculatorBase() {
         System.out.println();
         System.out.println("Using Inheritance");
         System.out.println();
 
         CalculateBase[] calculators = {
-            new Divider(100.0, 50.0),
-            new Adder(25., 92.),
-            new Subtracter(225., 15.),
-            new Multiplier(11., 3.)
+                new Divider(100.0, 50.0),
+                new Adder(25., 92.),
+                new Subtracter(225., 15.),
+                new Multiplier(11., 3.)
         };
 
         for (CalculateBase calculator : calculators) {
@@ -59,5 +79,4 @@ public class Main {
             System.out.println(calculator.getResult());
         }
     }
-
 }
