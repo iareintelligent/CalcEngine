@@ -1,15 +1,28 @@
 package com.tophersikorra;
 
 public class MathEquation {
-    private double operand1;
-    private double operand2;
-    private char operator;
+    private double operand1 = 0;
+    private double operand2 = 0;
+    private char operator = 'a';
     private double result;
+
+    public MathEquation() { }
+
+    public MathEquation(char operator) {
+        this.operator = operator;
+    }
 
     public MathEquation(double operand1, double operand2, char operator) {
         this.operand1 = operand1;
         this.operand2 = operand2;
         this.operator = operator;
+    }
+
+    public void execute(double operand1, double operand2) {
+        this.operand1 = operand1;
+        this.operand2 = operand2;
+
+        execute();
     }
 
     public void execute() {
