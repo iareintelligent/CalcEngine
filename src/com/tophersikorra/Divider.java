@@ -4,7 +4,7 @@ public class Divider extends CalculateBase {
     public Divider() {}
 
     public Divider(double operand1, double operand2) {
-        super(operand1,operand2);
+        super(operand1, operand2);
     }
 
     @Override
