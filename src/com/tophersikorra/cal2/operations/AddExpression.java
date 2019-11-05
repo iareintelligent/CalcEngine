@@ -1,4 +1,6 @@
-package com.tophersikorra.cal2;
+package com.tophersikorra.cal2.operations;
+
+import com.tophersikorra.cal2.Expression;
 
 public class AddExpression implements Expression {
     private final Expression left;
