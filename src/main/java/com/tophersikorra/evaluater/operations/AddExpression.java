@@ -1,6 +1,6 @@
-package com.tophersikorra.cal2.operations;
+package main.java.com.tophersikorra.evaluater.operations;
 
-import com.tophersikorra.cal2.Expression;
+import main.java.com.tophersikorra.evaluater.Expression;
 
 public class AddExpression implements Expression {
     private final Expression left;

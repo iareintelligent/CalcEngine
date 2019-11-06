@@ -1,4 +1,4 @@
-package com.tophersikorra.cal2.lexer;
+package main.java.com.tophersikorra.evaluater.lexer;
 
 //Topher Sikorra
 //4 Nov 2019

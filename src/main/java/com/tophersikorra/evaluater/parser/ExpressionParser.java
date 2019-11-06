@@ -1,4 +1,4 @@
-package com.tophersikorra.cal2.parser;
+package main.java.com.tophersikorra.evaluater.parser;
 
 public class ExpressionParser {
 

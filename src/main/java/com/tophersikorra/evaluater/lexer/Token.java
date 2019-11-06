@@ -1,4 +1,4 @@
-package com.tophersikorra.cal2.lexer;
+package main.java.com.tophersikorra.evaluater.lexer;
 
 public class Token {
     private final String value;
@@ -10,7 +10,6 @@ public class Token {
     }
 
     public String getValue() { return value; }
-
     public TokenId getId() { return id; }
 
 }

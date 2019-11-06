@@ -1,4 +1,4 @@
-package com.tophersikorra.cal2.lexer;
+package main.java.com.tophersikorra.evaluater.lexer;
 
 public class NumberTokenizer {
 
@@ -25,7 +25,7 @@ public class NumberTokenizer {
             }
         }
 
-        return
+        return new Token(sb.toString(), TokenId.NUMBER);
 
     }
 

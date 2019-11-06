@@ -2,32 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a880b42d-6ad0-4344-9b58-2ba97914bb4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/CalcEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionEvaluater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/NodeID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/NodeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/ExpressionTokenizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/NumberTokenizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/TokenId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/parser/ExpressionParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/CalculateBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/CalculateBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Divider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/Divider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/InvalidStatementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/InvalidStatementException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/MathEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Subtracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/Subtracter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/AddExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/AddExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/DivideExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/DivideExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/MultiplyExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/MultiplyExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/SubtractExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/SubtractExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ValueExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/ValueExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/review/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tophersikorra/review/MathEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/CalculateBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/CalculateHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Divider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/InvalidStatementException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/MathEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Multiplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Operators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Subtracter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/CalcEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/CalcEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionEvaluater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/ExpressionEvaluater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/ExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/NodeID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/NodeID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/NodeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/NodeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/ExpressionTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/ExpressionTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/NumberTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/NumberTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/TokenId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/TokenId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/AddExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/AddExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/DivideExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/DivideExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/MultiplyExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/MultiplyExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/SubtractExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/SubtractExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/ValueExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/ValueExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/parser/ExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/BiFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/MathEquation.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +62,14 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572977201861" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
@@ -133,6 +142,7 @@
       <workItem from="1572897916724" duration="5229000" />
       <workItem from="1572977248022" duration="306000" />
       <workItem from="1572977633719" duration="701000" />
+      <workItem from="1572999024227" duration="363000" />
     </task>
     <servers />
   </component>

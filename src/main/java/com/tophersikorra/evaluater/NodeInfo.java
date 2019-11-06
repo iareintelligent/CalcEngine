@@ -1,4 +1,4 @@
-package com.tophersikorra.cal2;
+package main.java.com.tophersikorra.evaluater;
 
 public enum NodeInfo {
         NO_INFO,
