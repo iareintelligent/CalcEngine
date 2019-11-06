@@ -2,37 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a880b42d-6ad0-4344-9b58-2ba97914bb4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/lexer/CharStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/lexer/tokenizer/ExpressionTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tophersikorra/calcEngine/lexer/CharStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tophersikorra/calcEngine/lexer/token/TokenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Adder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/CalculateBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/CalculateHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Divider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/InvalidStatementException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/MathEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Multiplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Operators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/Subtracter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/CalcEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/CalcEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionEvaluater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/ExpressionEvaluater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/ExpressionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/NodeID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/NodeID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/NodeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/NodeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/ExpressionTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/ExpressionTokenizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/NumberTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/NumberTokenizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/lexer/TokenId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/TokenId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/AddExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/AddExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/DivideExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/DivideExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/MultiplyExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/MultiplyExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/SubtractExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/SubtractExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/operations/ValueExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/ValueExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/cal2/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/parser/ExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/Adder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/BiFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tophersikorra/review/MathEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalcEngine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/CalcEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/CalcEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/ExpressionEvaluater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/ExpressionEvaluater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/ExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/NodeID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/NodeID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/NodeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/NodeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/ExpressionTokenizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/NumberTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/lexer/tokenizer/NumberTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/lexer/token/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/lexer/TokenId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/lexer/token/TokenId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/AddExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/operations/AddExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/DivideExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/operations/DivideExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/MultiplyExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/operations/MultiplyExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/SubtractExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/operations/SubtractExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/operations/ValueExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/operations/ValueExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tophersikorra/evaluater/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tophersikorra/calcEngine/parser/ExpressionParser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,27 +45,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1057" />
-    <option name="height" value="877" />
-  </component>
   <component name="ProjectId" id="1TCwx97G1Xcc3Zij6JVhu0plNfh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572977201861" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.java.com.tophersikorra.calcEngine.lexer" />
+      <recent name="test.java.com.tophersikorra.evaluater.lexer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="main.java.com.tophersikorra.evaluater.lexer.Token" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tophersikorra.cal2" />
       <recent name="com.tophersikorra.review" />
@@ -90,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExpressionTest">
+  <component name="RunManager" selected="JUnit.TokenTest">
     <configuration name="ExpressionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.tophersikorra.cal2.ExpressionTest" />
       <module name="CalcEngine" />
@@ -114,12 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TokenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalcEngine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.tophersikorra.evaluater.lexer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.tophersikorra.evaluater.lexer" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.tophersikorra.evaluater.lexer.TokenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ExpressionTest" />
+      <item itemvalue="JUnit.TokenTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TokenTest" />
         <item itemvalue="Application.ExpressionTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -142,7 +162,7 @@
       <workItem from="1572897916724" duration="5229000" />
       <workItem from="1572977248022" duration="306000" />
       <workItem from="1572977633719" duration="701000" />
-      <workItem from="1572999024227" duration="363000" />
+      <workItem from="1572999024227" duration="2808000" />
     </task>
     <servers />
   </component>

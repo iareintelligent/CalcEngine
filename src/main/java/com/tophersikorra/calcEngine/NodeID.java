@@ -1,4 +1,4 @@
-package main.java.com.tophersikorra.evaluater;
+package main.java.com.tophersikorra.calcEngine;
 
 public enum NodeID {
     OPEN_BRACKET,

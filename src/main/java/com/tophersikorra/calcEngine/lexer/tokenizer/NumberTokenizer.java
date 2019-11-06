@@ -1,4 +1,7 @@
-package main.java.com.tophersikorra.evaluater.lexer;
+package main.java.com.tophersikorra.calcEngine.lexer.tokenizer;
+
+import main.java.com.tophersikorra.calcEngine.lexer.token.Token;
+import main.java.com.tophersikorra.calcEngine.lexer.token.TokenId;
 
 public class NumberTokenizer {
 

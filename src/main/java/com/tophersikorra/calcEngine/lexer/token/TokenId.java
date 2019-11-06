@@ -1,4 +1,4 @@
-package main.java.com.tophersikorra.evaluater.lexer;
+package main.java.com.tophersikorra.calcEngine.lexer.token;
 
 
 //Topher Sikorra

@@ -1,8 +1,8 @@
-package main.java.com.tophersikorra.evaluater;
+package main.java.com.tophersikorra.calcEngine;
 
-import main.java.com.tophersikorra.evaluater.operations.AddExpression;
-import main.java.com.tophersikorra.evaluater.operations.MultiplyExpression;
-import main.java.com.tophersikorra.evaluater.operations.ValueExpression;
+import main.java.com.tophersikorra.calcEngine.operations.AddExpression;
+import main.java.com.tophersikorra.calcEngine.operations.MultiplyExpression;
+import main.java.com.tophersikorra.calcEngine.operations.ValueExpression;
 
 public class ExpressionTest {
 

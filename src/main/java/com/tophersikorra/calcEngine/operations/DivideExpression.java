@@ -1,6 +1,6 @@
-package main.java.com.tophersikorra.evaluater.operations;
+package main.java.com.tophersikorra.calcEngine.operations;
 
-import main.java.com.tophersikorra.evaluater.Expression;
+import main.java.com.tophersikorra.calcEngine.Expression;
 
 public class DivideExpression implements Expression {
     private final Expression left;
